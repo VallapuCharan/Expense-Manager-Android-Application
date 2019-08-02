@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Group15_HW05</string>
+    <string name="expenses">Expenses:</string>
+    <string name="totalHeading">Total:</string>
+    <string name="expenseName">Name :</string>
+    <string name="Cost">Cost :</string>
+    <string name="date">Date :</string>
+    <string name="sortCost">Sort By Cost</string>
+    <string name="sortDate">Sort By Date</string>
+    <string name="reset">Reset All</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="addExpense">Add Expense:</string>
+    <string name="name">Name :</string>
+    <string name="costHeading">Cost:</string>
+    <string name="dateHeading">Date :</string>
+    <string name="datePicker">Pick a Date</string>
+    <string name="recepit">Receipt :</string>
+    <string name="imagePicker">Choose an Image</string>
+    <string name="addExpenseBtn">Add Expense:</string>
+    <string name="editExpense">Edit Expense:</string>
+    <string name="editExpenseNameHead">Name :</string>
+    <string name="editExpenseCost">Cost :</string>
+    <string name="editExpenseDateHead">Date :</string>
+    <string name="editExpenseDatePicker">Pick a Date</string>
+    <string name="ReceiptHead">Receipt :</string>
+    <string name="editImage">Choose an Image</string>
+    <string name="saveChanges">Save Changes</string>
+    <string name="viewExpenseHeading">View Expense</string>
+    <string name="viewExpenseNameHeading">Expense Name:</string>
+    <string name="viewExpenseCostHeading">Expense Cost:</string>
+    <string name="viewExpenseDateHeading">Expense Date :</string>
+    <string name="Receipt">Receipt :</string>
+    <string name="viewExpenseFinish">Finish</string>
+</resources>

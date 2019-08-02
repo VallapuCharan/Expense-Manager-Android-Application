@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/sortCost"
+        android:title="@string/sortCost"
+        android:showAsAction="never"></item>
+    <item android:id="@+id/sortDate"
+        android:title="@string/sortDate"
+        android:showAsAction="never"></item>
+    <item android:id="@+id/reset"
+        android:title="@string/reset"
+        android:showAsAction="never"></item>
+</menu>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.saicharanreddy.group15_hw05.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/expenses"
+        android:id="@+id/expensesHeading"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/floatingButton"
+        android:layout_gravity="right"
+        android:src="@drawable/ic_add_circle_outline_black_24dp"
+        android:layout_marginLeft="400px"
+        android:layout_alignParentEnd="true" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="500px"
+        android:layout_below="@+id/floatingButton"
+        android:layout_above="@+id/totalHeading" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/totalHeading"
+        android:id="@+id/totalHeading"
+        android:layout_marginBottom="28dp"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/totalOutput"
+        android:layout_below="@+id/my_recycler_view"
+        android:layout_toEndOf="@+id/expensesHeading" />
+
+</RelativeLayout>
+    <!--
+                   *Assignment : Home Work 5
+                   * File Name : Group15_HW05
+                   * Full Name : Manideep Reddy Nukala, Sai Charan Reddy Vallapureddy
+                   * -->

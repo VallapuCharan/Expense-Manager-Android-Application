@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+tools:context="com.saicharanreddy.group15_hw05.ViewExpenseHeading">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="@string/viewExpenseHeading"
+    android:id="@+id/viewExpenseHeading"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="@string/viewExpenseNameHeading"
+    android:id="@+id/textView"
+    android:layout_below="@+id/viewExpenseHeading"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="65dp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:id="@+id/viewExpenseName"
+    android:layout_alignBottom="@+id/textView"
+    android:layout_toEndOf="@+id/textView"
+    android:layout_marginStart="27dp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="@string/viewExpenseCostHeading"
+    android:id="@+id/viewExpenseCostHeading"
+    android:layout_below="@+id/textView"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="38dp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:id="@+id/viewExpenseCost"
+    android:layout_alignBottom="@+id/viewExpenseCostHeading"
+    android:layout_toEndOf="@+id/textView" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="@string/viewExpenseDateHeading"
+    android:id="@+id/viewExpenseDateHeading"
+    android:layout_centerVertical="true"
+    android:layout_alignParentStart="true" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:id="@+id/viewExpenseDate"
+    android:layout_centerVertical="true"
+    android:layout_toEndOf="@+id/textView" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="@string/Receipt"
+    android:id="@+id/image"
+    android:layout_below="@+id/viewExpenseDateHeading"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="44dp" />
+
+<ImageView
+    android:layout_width="250px"
+    android:layout_height="250px"
+    android:id="@+id/displayImage"
+    android:layout_alignTop="@+id/image"
+    android:layout_alignEnd="@+id/finishButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/viewExpenseFinish"
+        android:id="@+id/finishButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#29bcb9" />
+</RelativeLayout>
+    <!--
+                   *Assignment : Home Work 5
+                   * File Name : Group15_HW05
+                   * Full Name : Manideep Reddy Nukala, Sai Charan Reddy Vallapureddy
+                   * -->
